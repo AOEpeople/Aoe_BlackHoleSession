@@ -1,0 +1,17 @@
+{
+    "name": "aoepeople/aoe_blackholesession",
+    "license": "GPLv3",
+    "type": "magento-module",
+    "description": "Will skip creating a real session for bots",
+    "homepage": "https://github.com/AOEpeople/Aoe_BlackHoleSession",
+    "authors": [
+        {
+            "name": "Fabrizio Branca",
+            "email": "firstname.lastname@aoe.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
+

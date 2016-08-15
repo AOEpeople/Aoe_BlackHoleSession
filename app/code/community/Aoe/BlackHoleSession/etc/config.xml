@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+
+    <modules>
+        <Aoe_BlackHoleSession>
+            <version>1.0.0</version>
+        </Aoe_BlackHoleSession>
+    </modules>
+
+    <global>
+        <models>
+            <aoeblackholesession>
+                <class>Aoe_BlackHoleSession_Model</class>
+            </aoeblackholesession>
+        </models>
+
+        <models>
+            <core>
+                <rewrite>
+                    <session>Aoe_BlackHoleSession_Model_Session</session>
+                </rewrite>
+            </core>
+        </models>
+    </global>
+
+</config>
