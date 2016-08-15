@@ -22,7 +22,6 @@ class Aoe_BlackHoleSession_Model_SessionHandler implements SessionHandlerInterfa
 
     public function open($save_path, $name)
     {
-        file_put_contents('/tmp/sessionhander', time() . "\n", FILE_APPEND);
         return true;
     }
 
